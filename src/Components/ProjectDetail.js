@@ -11,9 +11,9 @@ export default function ProjectDetail(){
         <div className="cont-project">
             <div className="cont-content">
                 <div className="cont-img">
-                    <button><i class="bi bi-chevron-left"></i></button>
+                    <button><i className="bi bi-chevron-left"></i></button>
                     <img src={project.image}/>
-                    <button><i class="bi bi-chevron-right"></i></button>
+                    <button><i className="bi bi-chevron-right"></i></button>
                 </div>
                 <hr/>
 

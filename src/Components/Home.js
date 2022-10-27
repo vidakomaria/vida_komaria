@@ -4,8 +4,8 @@ import { dataProjects } from "../Content/projectLists"
 import "./Home.css"
 
 export default function Home () {
-    const projects = dataProjects
-    // console.log(projects);
+    const projects = dataProjects.slice(-3).reverse()
+
     return(
         <div className="cont-home">
             <div className="profile">
@@ -18,16 +18,16 @@ export default function Home () {
                     </h3>
                     <div className="personal-link">
                         <a href="https://github.com/vidakomaria" target={"_blank"}>
-                            <i class="bi bi-github"></i>
+                            <i className="bi bi-github"></i>
                         </a>
                         <a href="https://www.linkedin.com/in/vida-komaria-873b15142/" target={"_blank"}>
-                            <i class="bi bi-linkedin"></i>
+                            <i className="bi bi-linkedin"></i>
                         </a>
                         <a href="https://www.instagram.com/vidakomaria/" target={"_blank"}>
-                            <i class="bi bi-instagram"></i>
+                            <i className="bi bi-instagram"></i>
                         </a>
                         <a href="https://twitter.com/vidakom" target={"_blank"}>
-                            <i class="bi bi-twitter"></i>
+                            <i className="bi bi-twitter"></i>
                         </a>
                     </div>
                 </div>
@@ -35,24 +35,29 @@ export default function Home () {
 
             {/* Preview Projects */}
             <div className="cont-projects">
-                {
-                    dataProjects.map((item,idx)=>{
-                        return(
-                            <Link to={`/projects/${item.id}`} key={item.id}>
-                                <div className="card-project"
-                                style={{ 
-                                    backgroundImage : `url(${item.image})`,
-                                }}
-                                >
-                                    {/* <img src={item.image}/> */}
+                <div className="projectList">
+                    {
+                        projects.map((item,idx)=>{
+                            return(
+                                <div className="card-project">
+                                    <Link to={`/projects/${item.id}`} key={item.id}>
+                                        <img src={item.image}/>
+
                                         <div className="card-title">
                                             {item.title}
                                         </div>
+                                    </Link> 
                                 </div>
-                            </Link> 
-                        )
-                    })
-                }
+                            )
+                        })
+                    }
+                </div>
+
+                <div className="linkProjects">
+                    <Link to={'/projects'}>
+                        Projects <i className="bi bi-arrow-right-circle"></i>
+                    </Link>
+                </div>
             </div>
         </div>
     )
