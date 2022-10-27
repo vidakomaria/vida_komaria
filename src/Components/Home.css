@@ -1,6 +1,5 @@
 .cont-home{
     display: flex;
-    font-family: 'Patua One', cursive;
     flex-direction: column;
     padding-bottom: 50px;
 }
