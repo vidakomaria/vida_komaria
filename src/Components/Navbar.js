@@ -1,5 +1,6 @@
-import { Link, useLocation, useNavigate, useNavigation } from "react-router-dom"
-import "./Navbar.css"
+import React from "react";
+import { useLocation, useNavigate, useNavigation } from "react-router-dom"
+import { Link } from 'react-scroll';
 
 export default function Navbar (){
     const loc = useLocation()
@@ -8,25 +9,32 @@ export default function Navbar (){
     return(
         <div className="navbar-cont">
             <div className="nav-lists">
-                <Link to={'/'}>
-                    <button className={pathName==='/'?'active':''}>HOME</button>
-                    {
-                        pathName==='/'?<><hr/></>:''
-                    }
+                <Link
+                    to="about"
+                    smooth={true}
+                    duration={500}
+                    spy={true} 
+                    activeClass="active"
+                    >
+                    <button>About</button>
                 </Link>
-
-                <Link to={'sumarry'}>
-                    <button className={pathName==='/sumarry'?'active':''}>SUMARRY</button>
-                    {
-                        pathName==='/sumarry'?<><hr/></>:''
-                    }
+                <Link
+                    to="experience"
+                    smooth={true}
+                    duration={500}
+                    spy={true} 
+                    activeClass="active"
+                    >
+                    <button>Experience</button>
                 </Link>
-
-                <Link to={'projects'}>
-                    <button className={pathName.includes('/projects') ?'active':''}>PROJECTS</button>
-                    {
-                        pathName.includes('/projects')?<><hr/></>:''
-                    }
+                <Link
+                    to="projects"
+                    smooth={true}
+                    duration={500}
+                    spy={true} 
+                    activeClass="active"
+                    >
+                    <button>Projects</button>
                 </Link>
             </div>
         </div>

@@ -1,11 +1,10 @@
-import './App.css';
+import React from "react";
+import './style.css';
 import Contact from './Components/Contact';
-import Home from './Components/Home';
 import Navbar from './Components/Navbar';
 import { Route, Routes } from 'react-router-dom'
-import Projects from './Components/Projects';
-import Summary from './Components/Sumarry';
-import ProjectDetail from './Components/ProjectDetail';
+import About from './Components/About';
+import Experience from './Components/Experience';
 
 function App() {
   return (
@@ -14,16 +13,14 @@ function App() {
         <Navbar/>
       </div>
       
-      <Routes>
-        <Route path='/' element={ <Home/> }/>
-        {/* <Route path='/vida_komaria' element={ <Home/> }/> */}
-        <Route path='sumarry' element={ <Summary/> }/>
-        <Route path='projects'>
-          <Route index element= { <Projects/> }/>
-          <Route path=':id' element={ <ProjectDetail/> }/>
-        </Route>
-      </Routes>
-
+      <div className="container" id="about">
+        <About/>
+      </div>
+      
+      <div className="container" id="experience">
+        <Experience/>
+      </div>
+      
       <div className='footer'>
         <Contact/>
       </div>

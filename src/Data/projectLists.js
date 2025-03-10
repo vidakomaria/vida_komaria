@@ -1,4 +1,3 @@
-import loginPict from '../assets/simita/Login.png'
 export const dataProjects = [
     {
         id : 1,

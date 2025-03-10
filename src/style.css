@@ -1,0 +1,159 @@
+body{
+  font-family: 'Patua One', cursive;
+}
+
+.App {
+  text-align: center;
+  height: 100%;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.navbar-cont{
+  display: flex;
+  justify-content: end;
+  width: 100%;
+  height: 50px;
+  margin:0px;
+  /* font-weight: 600; */
+  font-size: 18px;
+  padding-top: 10px;
+  position: fixed;
+  background-color: #0f172a;
+  top:0;
+}
+
+.nav-lists{
+  display: flex;
+  width: 50%;
+  justify-content: space-around;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+button{
+  background-color: transparent;
+  border: none;
+  font-size: 18px;
+  color:white;
+  /* background-color: black; */
+  padding: 8px;
+  /* margin-bottom: 2px; */
+}
+
+.active{
+  color: white;
+}
+
+button:hover{
+  cursor: pointer;
+  background-color: rgba(204, 204, 204, 0.28);
+}
+
+button.active {
+  background-color:rgb(177, 177, 177); /* Change color when active */
+  color: white;
+  border-radius: 5px;
+}
+
+hr{
+  margin-top: 0px;
+  border: 2px black solid;
+}
+
+.container {
+  max-width:1140px;
+  width: 100%;
+  padding-right: var(--bs-gutter-x, 0.75rem);
+  padding-left: var(--bs-gutter-x, 0.75rem);
+  margin-right: auto;
+  margin-left: auto;
+  padding-top:60px;
+}
+
+.cont-profile{
+  padding : 30px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.text-profile{
+  width:60%;
+}
+
+.profile-pict{
+  height: 400px;
+}
+
+.profile-description, .text-profile{
+  text-align: start;
+}
+
+.text-profile h3{
+  font-weight: 400;
+}
+
+.text-profile .personal-link{
+  display: flex;
+  width: 40%;
+  justify-content: space-between;
+  font-size: 24px;
+}
+
+.personal-link a{
+  text-decoration: none;
+  color: black;
+}
+
+.card {
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  padding:20px;
+  display:flex;
+  align-items:center;
+}
+
+.card-desc{
+  text-align: start;
+}
+
+.footer{
+  position: relative;
+  bottom: 0;
+  width: 100%;
+}

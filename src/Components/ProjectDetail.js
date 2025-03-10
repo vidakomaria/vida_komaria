@@ -1,6 +1,6 @@
+import React from "react";
 import { useParams } from "react-router-dom"
 import { dataProjects } from "../Content/projectLists"
-import './ProjectDetail.css'
 
 export default function ProjectDetail(){
     const id = useParams().id

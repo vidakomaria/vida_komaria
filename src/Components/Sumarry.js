@@ -1,3 +1,4 @@
+import React from "react";
 import { dataProfile } from "../Content/dataSummary"
 
 export default function Summary(){

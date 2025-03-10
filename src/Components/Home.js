@@ -1,15 +1,14 @@
+import React from "react";
 import { Link } from "react-router-dom"
 import profilPict from "../assets/vida.png"
 import { dataProjects } from "../Content/projectLists"
-import "./Home.css"
 
 export default function Home () {
     const projects = dataProjects.slice(-3).reverse()
 
     return(
         <div className="cont-home">
-            <div className="profile">
-                <img src={profilPict}/>
+            <div className="profile" id="about">
                 <div className="text-profile">
                     <h2>Hello, I'm</h2>
                     <h1>VIDA KOMARIA</h1>
@@ -31,6 +30,7 @@ export default function Home () {
                         </a>
                     </div>
                 </div>
+                <img src={profilPict}/>
             </div>
 
             {/* Preview Projects */}

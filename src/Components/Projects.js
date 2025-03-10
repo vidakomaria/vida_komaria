@@ -1,6 +1,6 @@
+import React from "react";
 import { Link } from "react-router-dom"
 import { dataProjects } from "../Content/projectLists"
-import "./Projects.css"
 
 export default function Projects(){
     const projectLists = dataProjects.reverse()
