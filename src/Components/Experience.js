@@ -1,7 +1,6 @@
 import React from "react";
 import profilPict from "../assets/Profile.png"
 import { dataExperience } from "../Data/dataExperience"
-import { dataOrganizationExp } from "../Data/dataExperience"
 
 export default function Content () {
 
@@ -11,8 +10,9 @@ export default function Content () {
             <div className="cont-experience">
                 {dataExperience.map((exp, index) => (
                     <div className="card" key={index}>
-                        <div>
+                        <div className="card-title">
                             <h3>{exp.name}</h3>
+                            <p>({exp.place})</p>
                             <p>{exp.time.start} - {exp.time.end}</p>
                         </div>
                         <div className="card-desc">

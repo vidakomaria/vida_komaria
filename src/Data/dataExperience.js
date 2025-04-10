@@ -1,19 +1,76 @@
 export const dataExperience = [
     {
         id:1,
-        place:"Ruangguru",
-        name:"Frontend Engineering Bootcamp - Kampus Merdeka Program ",
-        time: {start:"February 2022", end:"Juny 2022"},
+        place:"PT. Global Medika Digitama",
+        name:"Web Programmer",
+        time: {start:"Nov 2023", end:"Present"},
         description : [
-            "Software Engineering, Implemented Software Development method and tools for project management using Jira and version control using Github.",
-            "Frontend Programming with HTML, CSS, Javascript and NPM/Yarn.",
-            "Component Programming with React includes State and Props, handling event, React hook: state, effect, memoize, React Context & Provider.",
-            "Frontend Framework using Chakra-UI and state management with Zustand.",
-            "Creating API, testing API using postman, Integrated CRUD API"
+            "Developed and optimized new features while enhancing existing functionality in an agile (1-week) cadence using PHP, HTML, CSS, and JavaScript within the Laravel framework, REST API and MVC.",
+            "Communicated effectively with end users to gather requirements, implement system, and communication with client.",
+            "Contributed to the Maintenance Division by analyzing, debugging, and troubleshoot issues efficiently, ensuring system stability and performance based on reports"
+        ]
+    },
+    {
+        id:2,
+        place:"Fastwork - Freelance Online Platform",
+        name:"Freelance Frontend",
+        time: {start:"Jan 2023", end:"Nov 2023"},
+        description : [
+            "Develop and styled interactive web based on client design using HTML, CSS and Javascript.",
+            "Successfully completed 15+ projects, maintaining a 4.98-star average review rating."
+        ]
+    },
+    {
+        id:3,
+        place:"Ruangguru",
+        name:"Frontend Engineering Bootcamp",
+        time: {start:"Feb 2022", end:"Jun 2022"},
+        description : [
+            "Implemented software development methodologies and project management tools.",
+            "Developed responsive front-end interfaces using HTML, CSS, JavaScript and ReactJS.",
+            "Led a team of 6 members, including Backend and Frontend engineers, to successfully develop and deliver projects."
         ]
     },
 ]
 
+export const dataProjects = [
+    {
+        id:1,
+        place:"Medify - Web Developer",
+        name: "Hospital Information System Management",
+        desc : "ERP (Enterprise Resource Planning) System that include patient records, third party integrations, appointments scheduling, administrative features, pharmacy management, billing and accounting, inventory management, assessment modules, reporting modules, etc.",
+        desc_list : [
+            "Programming Languages : PHP, HTML, CSS, JavaScript, Jquery.",
+            "Libraries & Frameworks : Laravel, Bootstrap, API.",
+            "Database Management : MySql.",
+            "Tools & Platform : Git, Github, Clickup, Microsoft Teams."
+        ]
+    },
+    {
+        id:2,
+        place:"College Assignment - Fullstack Web Programmer",
+        name: "SIMITA (Sistem Mitra Tani)",
+        desc : "Stock management system with other features such as user roles, sales reporting, sales forecasting using the double moving average method and data visualization.",
+        desc_list : [
+            "Programming Languages : PHP, HTML, CSS, JavaScript.",
+            "Libraries & Frameworks : Laravel, Bootstrap",
+            "Database Management : MySql.",
+            "Tools & Platform : Git, Github, Trello"
+        ]
+    },
+    {
+        id:3,
+        place:"College Assignment - Frontend Engineering",
+        name: "BUKUKITA (Sistem Mitra Tani)",
+        desc : "Final project for a Bootcamp program. Integrated Frontend and Backend by consuming APIs, including a custom-built Backend and Google Books API.",
+        desc_list : [
+            "Programming Languages : HTML, CSS, JavaScript.",
+            "Libraries & Frameworks : Tailwind CSS, React, Chakra UI, API",
+            "Database Management : MySql.",
+            "Tools & Platform : Git, Github, Jira, Figma",
+        ]
+    },
+]
 
 
 export const dataOrganizationExp = [

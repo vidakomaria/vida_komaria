@@ -1,7 +1,10 @@
-body{
+/* body{
   font-family: 'Patua One', cursive;
+} */
+h3, p{
+  margin-block-start:0px;
+  margin-block-end:0px;
 }
-
 .App {
   text-align: center;
   height: 100%;
@@ -138,6 +141,10 @@ hr{
   color: black;
 }
 
+.cont-experience{
+  max-width:2048px;
+}
+
 .card {
   border: 1px solid #ddd;
   border-radius: 8px;
@@ -146,10 +153,24 @@ hr{
   padding:20px;
   display:flex;
   align-items:center;
+  margin-bottom:20px;
+}
+
+.card-title{
+  width:40%;
 }
 
 .card-desc{
   text-align: start;
+  width:60%;
+}
+
+.cont-projects .card .card-title{
+  width : 35%;
+}
+
+.cont-projects .card .card-desc{
+  width : 65%;
 }
 
 .footer{
