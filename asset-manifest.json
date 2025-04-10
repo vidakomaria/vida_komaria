@@ -1,26 +1,25 @@
 {
   "files": {
-    "main.css": "/vida_komaria/static/css/main.855d85f2.chunk.css",
-    "main.js": "/vida_komaria/static/js/main.3b7f6a8c.chunk.js",
-    "main.js.map": "/vida_komaria/static/js/main.3b7f6a8c.chunk.js.map",
-    "runtime-main.js": "/vida_komaria/static/js/runtime-main.995c6ea0.js",
-    "runtime-main.js.map": "/vida_komaria/static/js/runtime-main.995c6ea0.js.map",
-    "static/js/2.df37a3ad.chunk.js": "/vida_komaria/static/js/2.df37a3ad.chunk.js",
-    "static/js/2.df37a3ad.chunk.js.map": "/vida_komaria/static/js/2.df37a3ad.chunk.js.map",
-    "static/js/3.cbf43f5a.chunk.js": "/vida_komaria/static/js/3.cbf43f5a.chunk.js",
-    "static/js/3.cbf43f5a.chunk.js.map": "/vida_komaria/static/js/3.cbf43f5a.chunk.js.map",
+    "main.css": "/vida_komaria/static/css/main.6eec62eb.chunk.css",
+    "main.js": "/vida_komaria/static/js/main.8c78f1c3.chunk.js",
+    "main.js.map": "/vida_komaria/static/js/main.8c78f1c3.chunk.js.map",
+    "runtime-main.js": "/vida_komaria/static/js/runtime-main.905ebaca.js",
+    "runtime-main.js.map": "/vida_komaria/static/js/runtime-main.905ebaca.js.map",
+    "static/js/2.7dfc6cfc.chunk.js": "/vida_komaria/static/js/2.7dfc6cfc.chunk.js",
+    "static/js/2.7dfc6cfc.chunk.js.map": "/vida_komaria/static/js/2.7dfc6cfc.chunk.js.map",
+    "static/js/3.03e7df0f.chunk.js": "/vida_komaria/static/js/3.03e7df0f.chunk.js",
+    "static/js/3.03e7df0f.chunk.js.map": "/vida_komaria/static/js/3.03e7df0f.chunk.js.map",
     "index.html": "/vida_komaria/index.html",
-    "precache-manifest.b5160e7c1bb8e2e38847aa0be49e30e3.js": "/vida_komaria/precache-manifest.b5160e7c1bb8e2e38847aa0be49e30e3.js",
+    "precache-manifest.b73229c44a8ac1e379e0920a6c53ec8e.js": "/vida_komaria/precache-manifest.b73229c44a8ac1e379e0920a6c53ec8e.js",
     "service-worker.js": "/vida_komaria/service-worker.js",
-    "static/css/main.855d85f2.chunk.css.map": "/vida_komaria/static/css/main.855d85f2.chunk.css.map",
-    "static/js/2.df37a3ad.chunk.js.LICENSE.txt": "/vida_komaria/static/js/2.df37a3ad.chunk.js.LICENSE.txt",
-    "static/media/Profile.png": "/vida_komaria/static/media/Profile.1a547579.png",
-    "static/media/Vida_Komaria_Curriculum_Vitae.pdf": "/vida_komaria/static/media/Vida_Komaria_Curriculum_Vitae.cf0131f5.pdf"
+    "static/css/main.6eec62eb.chunk.css.map": "/vida_komaria/static/css/main.6eec62eb.chunk.css.map",
+    "static/js/2.7dfc6cfc.chunk.js.LICENSE.txt": "/vida_komaria/static/js/2.7dfc6cfc.chunk.js.LICENSE.txt",
+    "static/media/Profile.png": "/vida_komaria/static/media/Profile.1a547579.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.995c6ea0.js",
-    "static/js/2.df37a3ad.chunk.js",
-    "static/css/main.855d85f2.chunk.css",
-    "static/js/main.3b7f6a8c.chunk.js"
+    "static/js/runtime-main.905ebaca.js",
+    "static/js/2.7dfc6cfc.chunk.js",
+    "static/css/main.6eec62eb.chunk.css",
+    "static/js/main.8c78f1c3.chunk.js"
   ]
 }
