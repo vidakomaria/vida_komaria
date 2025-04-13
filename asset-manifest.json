@@ -1,25 +1,34 @@
 {
   "files": {
-    "main.css": "/vida_komaria/static/css/main.6eec62eb.chunk.css",
-    "main.js": "/vida_komaria/static/js/main.8c78f1c3.chunk.js",
-    "main.js.map": "/vida_komaria/static/js/main.8c78f1c3.chunk.js.map",
-    "runtime-main.js": "/vida_komaria/static/js/runtime-main.905ebaca.js",
-    "runtime-main.js.map": "/vida_komaria/static/js/runtime-main.905ebaca.js.map",
-    "static/js/2.7dfc6cfc.chunk.js": "/vida_komaria/static/js/2.7dfc6cfc.chunk.js",
-    "static/js/2.7dfc6cfc.chunk.js.map": "/vida_komaria/static/js/2.7dfc6cfc.chunk.js.map",
-    "static/js/3.03e7df0f.chunk.js": "/vida_komaria/static/js/3.03e7df0f.chunk.js",
-    "static/js/3.03e7df0f.chunk.js.map": "/vida_komaria/static/js/3.03e7df0f.chunk.js.map",
+    "main.css": "/vida_komaria/static/css/main.c71a527b.chunk.css",
+    "main.js": "/vida_komaria/static/js/main.ee97259d.chunk.js",
+    "main.js.map": "/vida_komaria/static/js/main.ee97259d.chunk.js.map",
+    "runtime-main.js": "/vida_komaria/static/js/runtime-main.c1e42b3a.js",
+    "runtime-main.js.map": "/vida_komaria/static/js/runtime-main.c1e42b3a.js.map",
+    "static/js/2.6b6a6c59.chunk.js": "/vida_komaria/static/js/2.6b6a6c59.chunk.js",
+    "static/js/2.6b6a6c59.chunk.js.map": "/vida_komaria/static/js/2.6b6a6c59.chunk.js.map",
+    "static/js/3.311468b3.chunk.js": "/vida_komaria/static/js/3.311468b3.chunk.js",
+    "static/js/3.311468b3.chunk.js.map": "/vida_komaria/static/js/3.311468b3.chunk.js.map",
     "index.html": "/vida_komaria/index.html",
-    "precache-manifest.b73229c44a8ac1e379e0920a6c53ec8e.js": "/vida_komaria/precache-manifest.b73229c44a8ac1e379e0920a6c53ec8e.js",
+    "precache-manifest.a40980cc298c1caa95f15ade07f12026.js": "/vida_komaria/precache-manifest.a40980cc298c1caa95f15ade07f12026.js",
     "service-worker.js": "/vida_komaria/service-worker.js",
-    "static/css/main.6eec62eb.chunk.css.map": "/vida_komaria/static/css/main.6eec62eb.chunk.css.map",
-    "static/js/2.7dfc6cfc.chunk.js.LICENSE.txt": "/vida_komaria/static/js/2.7dfc6cfc.chunk.js.LICENSE.txt",
-    "static/media/Profile.png": "/vida_komaria/static/media/Profile.1a547579.png"
+    "static/css/main.c71a527b.chunk.css.map": "/vida_komaria/static/css/main.c71a527b.chunk.css.map",
+    "static/js/2.6b6a6c59.chunk.js.LICENSE.txt": "/vida_komaria/static/js/2.6b6a6c59.chunk.js.LICENSE.txt",
+    "static/media/1.png": "/vida_komaria/static/media/1.0ad0810f.png",
+    "static/media/1.jpeg": "/vida_komaria/static/media/1.cdca7755.jpeg",
+    "static/media/2.jpeg": "/vida_komaria/static/media/2.0bc75b79.jpeg",
+    "static/media/2.jpg": "/vida_komaria/static/media/2.5e4dd6a5.jpg",
+    "static/media/3.jpeg": "/vida_komaria/static/media/3.0625c4a0.jpeg",
+    "static/media/3.jpg": "/vida_komaria/static/media/3.fcc10697.jpg",
+    "static/media/4.jpeg": "/vida_komaria/static/media/4.bf598be5.jpeg",
+    "static/media/5.jpeg": "/vida_komaria/static/media/5.eefc8dae.jpeg",
+    "static/media/Profile.png": "/vida_komaria/static/media/Profile.1a547579.png",
+    "static/media/VidaKomaria_CV.pdf": "/vida_komaria/static/media/VidaKomaria_CV.636161d7.pdf"
   },
   "entrypoints": [
-    "static/js/runtime-main.905ebaca.js",
-    "static/js/2.7dfc6cfc.chunk.js",
-    "static/css/main.6eec62eb.chunk.css",
-    "static/js/main.8c78f1c3.chunk.js"
+    "static/js/runtime-main.c1e42b3a.js",
+    "static/js/2.6b6a6c59.chunk.js",
+    "static/css/main.c71a527b.chunk.css",
+    "static/js/main.ee97259d.chunk.js"
   ]
 }
