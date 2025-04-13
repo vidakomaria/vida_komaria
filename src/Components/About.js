@@ -17,12 +17,6 @@ export default function Content () {
                     <a href="https://www.linkedin.com/in/vida-komaria-873b15142/" target={"_blank"}>
                         <i className="bi bi-linkedin"></i>
                     </a>
-                    <a href="https://www.instagram.com/vidakomaria/" target={"_blank"}>
-                        <i className="bi bi-instagram"></i>
-                    </a>
-                    <a href="https://twitter.com/vidakom" target={"_blank"}>
-                        <i className="bi bi-twitter"></i>
-                    </a>
                 </div>
             </div>
             <div>
