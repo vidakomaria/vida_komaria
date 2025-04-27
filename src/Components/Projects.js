@@ -17,7 +17,7 @@ function ImageSlideshow({ images }) {
     };
 
     return (
-        <div style={{ position: "relative", width: "800px", height: "500px" }}>
+        <div style={{ position: "relative", width: "800px", height: "500px", margin:"auto", display:"flex" }}>
             <img
                 src={images[currentIndex]}
                 alt="slideshow"
@@ -50,7 +50,7 @@ export default function Projects(){
                 
                         return (
                             <div className="card" style={{ flexDirection:'column' }} key={index}>
-                                <div style={{ flexDirection:'row', display:'flex' }}>
+                                <div style={{ flexDirection:'row', display:'flex' , justifyContent:'space-between'}}>
                                     <div className="card-desc">
                                         <p>{project.desc}</p>
                                         <ul>

@@ -5,9 +5,10 @@ export const dataExperience = [
         name:"Web Programmer",
         time: {start:"Nov 2023", end:"Present"},
         description : [
-            "Developed and optimized new features while enhancing existing functionality in an agile (1-week) cadence using PHP, HTML, CSS, and JavaScript within the Laravel framework, REST API and MVC.",
-            "Communicated effectively with end users to gather requirements, implement system, and communication with client.",
-            "Contributed to the Maintenance Division by analyzing, debugging, and troubleshoot issues efficiently, ensuring system stability and performance based on reports"
+            "Developed and optimized new features using PHP, HTML, CSS, and JavaScript within the Laravel framework, applying RESTful API integration and MVC architecture in an Agile development environment.",
+            "Enhanced existing system functionalities and improved overall system performance through debugging, troubleshooting, and code optimization.",
+            "Contributed to the Maintenance Division by analyzing user reports, identifying root causes, and delivering timely system fixes to ensure stability and reliability.",
+            "Collaborated with internal teams, coordinated implementation processes, and ensured successful system deployment through effective communication with users.",
         ]
     },
     {

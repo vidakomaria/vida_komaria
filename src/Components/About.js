@@ -8,7 +8,7 @@ export default function Content () {
                 <h2>Hello, I'm</h2>
                 <h1>VIDA KOMARIA</h1>
                 <h3 className="profile-description">
-                    Interested in Frontend Development, Web Design, and Web Development. Responsible, disciplined, and eager to learn and experience a new things.
+                    Web Developer since 2023 with freelance experience in Frontend Development. Strong interest in Web Development, Frontend Development, Data Science, Data Analysis, and troubleshooting, with a focus on delivering high-quality, scalable web solutions.
                 </h3>
                 <div className="personal-link">
                     <a href="https://github.com/vidakomaria" target={"_blank"}>
@@ -16,6 +16,9 @@ export default function Content () {
                     </a>
                     <a href="https://www.linkedin.com/in/vida-komaria-873b15142/" target={"_blank"}>
                         <i className="bi bi-linkedin"></i>
+                    </a>
+                    <a href="https://fastwork.id/user/vida26" target={"_blank"}>
+                        <span style={{ fontWeight:'bold', textDecoration:'underline' }}>Fastwork</span>
                     </a>
                 </div>
             </div>
