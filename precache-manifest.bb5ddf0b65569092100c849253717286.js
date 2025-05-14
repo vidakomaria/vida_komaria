@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "00cdcbdc6583965a205cebb7f2244b8a",
+    "revision": "e68b06f6a5fb29bf4c1221f995f0b81f",
     "url": "/vida_komaria/index.html"
   },
   {
-    "revision": "e28e929eb871cbfe435a",
-    "url": "/vida_komaria/static/css/main.c71a527b.chunk.css"
+    "revision": "8a90d0fd7db955ae2060",
+    "url": "/vida_komaria/static/css/main.18e3c789.chunk.css"
   },
   {
     "revision": "34c5f5a9596f504cc495",
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/vida_komaria/static/js/3.311468b3.chunk.js"
   },
   {
-    "revision": "e28e929eb871cbfe435a",
-    "url": "/vida_komaria/static/js/main.ee97259d.chunk.js"
+    "revision": "8a90d0fd7db955ae2060",
+    "url": "/vida_komaria/static/js/main.2ad19095.chunk.js"
   },
   {
     "revision": "d3f7c1cd765ad3d7a51f",
