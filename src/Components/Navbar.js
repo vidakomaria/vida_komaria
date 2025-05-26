@@ -1,6 +1,7 @@
 import React from "react";
 import { useLocation, useNavigate, useNavigation } from "react-router-dom"
-import { Link } from 'react-scroll';
+import { Link as ScrollLink } from 'react-scroll';
+import { Link } from "react-router-dom";
 
 export default function Navbar (){
     const loc = useLocation()
@@ -10,7 +11,7 @@ export default function Navbar (){
         <div className="navbar-cont">
             <div className="nav-lists">
                 <Link
-                    to="about"
+                    to="/"
                     smooth={true}
                     duration={500}
                     spy={true} 
@@ -18,7 +19,7 @@ export default function Navbar (){
                     >
                     <button>About</button>
                 </Link>
-                <Link
+                <ScrollLink
                     to="experience"
                     smooth={true}
                     duration={500}
@@ -26,8 +27,8 @@ export default function Navbar (){
                     activeClass="active"
                     >
                     <button>Experience</button>
-                </Link>
-                <Link
+                </ScrollLink>
+                <ScrollLink
                     to="projects"
                     smooth={true}
                     duration={500}
@@ -35,7 +36,7 @@ export default function Navbar (){
                     activeClass="active"
                     >
                     <button>Projects</button>
-                </Link>
+                </ScrollLink>
             </div>
         </div>
     )

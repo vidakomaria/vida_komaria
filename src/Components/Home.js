@@ -1,5 +1,4 @@
 import React from "react";
-import { Link } from "react-router-dom"
 import profilPict from "../assets/vida.png"
 import { dataProjects } from "../Content/projectLists"
 

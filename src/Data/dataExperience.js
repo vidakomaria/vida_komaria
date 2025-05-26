@@ -49,6 +49,18 @@ export const dataProjects = [
     },
     {
         id:2,
+        place:"Freelance - Frontend",
+        name: "UI Slicing for Various Clients",
+        desc : "Worked as a freelance frontend developer to convert UI/UX designs into responsive web pages using HTML, CSS, and JavaScript. Delivered 14 web-based projects for various clients, ensuring pixel-perfect implementation across desktop and mobile views.",
+        desc_list : [
+            "Programming Languages : HTML, CSS, JavaScript.",
+            "Libraries & Frameworks : Tailwind CSS, Bootstrap (as needed).",
+            "Database Management : Not applicable (static frontend projects).",
+            "Tools & Platform : Git, GitHub, Figma, VS Code, Chrome DevTools.",
+        ]
+    },
+    {
+        id:3,
         place:"College Assignment - Fullstack Web Programmer",
         name: "SIMITA (Sistem Mitra Tani)",
         desc : "Stock management system with other features such as user roles, sales reporting, sales forecasting using the double moving average method and data visualization.",
@@ -60,7 +72,7 @@ export const dataProjects = [
         ]
     },
     {
-        id:3,
+        id:4,
         place:"College Assignment - Frontend Engineering",
         name: "BUKUKITA (Sistem Mitra Tani)",
         desc : "Final project for a Bootcamp program. Integrated Frontend and Backend by consuming APIs, including a custom-built Backend and Google Books API.",

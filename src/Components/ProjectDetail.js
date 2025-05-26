@@ -1,41 +1,18 @@
 import React from "react";
-import { useParams } from "react-router-dom"
-import { dataProjects } from "../Content/projectLists"
+import { imagesFastwork } from "../Data/projectLists"
 
-export default function ProjectDetail(){
-    const id = useParams().id
-    const project = dataProjects[id-1]
-    // console.log(project.image);
-    // const img = require(project.image).ReactComponent
-    return(
-        <div className="cont-project">
-            <div className="cont-content">
-                <div className="cont-img">
-                    <button><i className="bi bi-chevron-left"></i></button>
-                    <img src={project.image}/>
-                    <button><i className="bi bi-chevron-right"></i></button>
+export default function ProjectDetail() {
+    const project = imagesFastwork[0];
+    return (
+        <div className="cont-fastwork-detail">
+            <h1>Fastwork Freelance Projects</h1>
+            <div className="fastwork-list">
+                {project.url.map((image, index) => (
+                <div key={index} className="image-detail">
+                    <img src={image} alt={`Fastwork Image ${index + 1}`} />
                 </div>
-                <hr/>
-
-                <div className="cont-detail">
-                    <div className="title">{project.title}</div>
-                    <div className="role">{project.role}</div>
-                    <div className="desc">
-                        <div className="title">
-                            <div>Description</div>
-                            <div>:</div>
-                        </div>
-                        <div className="detail">{project.description}</div>
-                    </div>
-                    <div className="utilized">
-                        <div className="title">
-                            <div>Utilized</div>
-                            <div>:</div>
-                        </div>
-                        <div className="detail">{project.utilized}</div>
-                    </div>
-                </div>
+                ))}
             </div>
         </div>
-    )
+    );
 }
